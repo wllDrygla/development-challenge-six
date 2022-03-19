@@ -1,6 +1,3 @@
-# development-challenge-six
-Medcloud's Challenge for Quality Assurance
-
 ![logo medcloud-03 white copy](https://user-images.githubusercontent.com/46347123/158176045-de9fefb0-35e2-4515-83ff-c132608aa870.png)
 
 About Medcloud:
