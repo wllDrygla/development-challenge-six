@@ -17,7 +17,7 @@ Medcloud's Challenge for Quality Assurance
 
 ## Goal
 
-- To list and test features and find bugs in [this](https://qa.medcloud.link) website.
+- To list and test features and find bugs in [this](https://qa.medcloud.link) website. In this repo, there's a Service Requirements Specification (SRS) file that you can use as minimum requirements.
 
 ## Required
 
@@ -32,7 +32,6 @@ Medcloud's Challenge for Quality Assurance
 - Be consistent and know how to argue your choices
 - Present solutions you master
 - Architecture (structuring thought before writing)
-- Affection in decoupling components (other layers, service, repository)
 
 According to the above criteria, we will evaluate your test in order to proceed to the technical interview. If you have not acceptably achieved what we are proposing above, we will not proceed with the process.
 
