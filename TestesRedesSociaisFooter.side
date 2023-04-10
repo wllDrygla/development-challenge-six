@@ -1,0 +1,251 @@
+{
+  "id": "9362a98a-33e8-4042-9f98-4ac91e1e6176",
+  "version": "2.0",
+  "name": "TESTES AUTOMATIZADOS MEDCLOUD",
+  "url": "https://qa.medcloud.link",
+  "tests": [{
+    "id": "538c671b-7d44-4675-80dc-d2dcc4fc17f8",
+    "name": "LINK SPOTIFY",
+    "commands": [{
+      "id": "a1c013e3-f142-4156-8f3d-854c2b832a92",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0384247c-12d8-457c-b8ec-d23034a04a2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3a2d934-d8d5-43ed-a453-eb3ecf6fb8a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.space-x-6 > a:nth-child(1)",
+      "targets": [
+        ["css=.space-x-6 > a:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://open.spotify.com/show/4IK3IeDsKHbflXLQ6oy20W')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91000e3e-5749-48a0-8f84-62abd8968fc8",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Momento Saúde Digital | Podcast on Spotify",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "494e002b-eda0-4c49-94f6-b2ec6b6a4433",
+    "name": "LINK  FACEBOOK",
+    "commands": [{
+      "id": "162ccac0-9320-47ed-af37-fb82a4d7bb2e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b2506be-002a-47fc-b538-f0dc72cb947a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e1fe4fa-1e5a-4d16-8837-e8402cc239fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3)",
+      "targets": [
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/medcloudbr')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cdff563-95fe-4c90-8fa9-dd7dbc63171f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.x14qwyeo > .x1heor9g",
+      "targets": [
+        ["css=.x14qwyeo > .x1heor9g", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_/I']/div/div/div/div[3]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/span/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Medcloud')]", "xpath:innerText"]
+      ],
+      "value": "Medcloud"
+    }]
+  }, {
+    "id": "a9590c7f-872a-4aba-b49b-a2ba41edaaca",
+    "name": "LINK INSTAGRAM",
+    "commands": [{
+      "id": "5c5efb33-cd28-4f67-8059-a8fbd379d1aa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a7149f5-8cd2-4eb0-a412-ea79d04478fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.space-x-6 > a:nth-child(2)",
+      "targets": [
+        ["css=.space-x-6 > a:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.instagram.com/medcloudbr/')]", "xpath:href"],
+        ["xpath=//section/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b97f2b49-ac38-4309-9960-7624aa2c9191",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.x1ms8i2q",
+      "targets": [
+        ["css=.x1ms8i2q", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_Bj']/div/div/div[2]/div/div/div/div/div/div[2]/section/main/div/header/section/div/a/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'medcloudbr')]", "xpath:innerText"]
+      ],
+      "value": "medcloudbr"
+    }]
+  }, {
+    "id": "1c2d72c1-f67d-4f13-8651-1749d437dd12",
+    "name": "LINK TWITER",
+    "commands": [{
+      "id": "906f815c-14b6-442e-9dc1-f4941ee381da",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10b0e498-ecb5-4330-8d7f-5fcdc7c43b11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d566c918-9f41-46e6-be87-8c61f63b165f",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4)",
+      "targets": [
+        ["css=a:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.facebook.com/medcloudbr')])[2]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b376ba0d-d614-4570-968c-d8da9bc5a89d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-901oao > .css-901oao > .css-901oao:nth-child(1)",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(2) > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-901oao > .css-901oao > .css-901oao:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": "Medcloud"
+    }]
+  }, {
+    "id": "4736f9e2-e416-4d8b-b1a1-2d6bba785ec4",
+    "name": "LINK YOUTUBE",
+    "commands": [{
+      "id": "8c74108f-0a3c-45f3-bc70-79a399f1f4de",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a69959e7-9d71-41a2-8cf4-51aa5c588961",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3034cbaf-0e68-41e1-88c0-0b50fe213380",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5)",
+      "targets": [
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.youtube.com/channel/UCQZCk0wyl9vQLDt84d1Sr1w')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec516782-50d5-4882-999b-5a0c99931735",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Medcloud - YouTube",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "99b093c6-bf81-4fff-8451-2f255da677fe",
+    "name": "LINK LINKEDIN",
+    "commands": [{
+      "id": "30c43e46-8d70-4400-8449-6ede5b0a6f22",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b3a68e7-47d4-4749-b045-2048d4f4e6d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2023ed03-f286-4290-8bb8-742a349a99aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(6)",
+      "targets": [
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/company/medcloud/')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6720572c-8669-4b9e-bd51-52436b49d35c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#ember29 > span",
+      "targets": [
+        ["css=#ember29 > span", "css:finder"],
+        ["xpath=//h1[@id='ember29']/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Medcloud')]", "xpath:innerText"]
+      ],
+      "value": "Medcloud"
+    }]
+  }],
+  "suites": [{
+    "id": "c25e9fde-dca9-4fed-9b8d-5114e1ed4c1c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["538c671b-7d44-4675-80dc-d2dcc4fc17f8"]
+  }],
+  "urls": ["https://qa.medcloud.link/"],
+  "plugins": []
+}

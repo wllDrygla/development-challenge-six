@@ -1,0 +1,146 @@
+{
+  "id": "6a862446-cee3-452f-a99e-6d15996f24b8",
+  "version": "2.0",
+  "name": "TESTES AUTOMATIZADOS MEDCLOUD",
+  "url": "https://qa.medcloud.link",
+  "tests": [{
+    "id": "f8b48ca3-913a-48ce-95d8-de7cf8a4893f",
+    "name": "MUDAR IDIOMA INGLÊS",
+    "commands": [{
+      "id": "a4ba47c9-3a4a-416f-8031-40fc5e119502",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6498bd4f-5a6f-4483-837a-043ec1720290",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a749e29c-1cc9-4717-afb3-f320cf74ed36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.float-right:nth-child(3)",
+      "targets": [
+        ["css=.float-right:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[35]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section[7]/section/div[2]/section[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//section[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Inglês')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6d0c204-5820-4289-96aa-851d64e8a2d1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sm\\3Aw-full:nth-child(5) > .text-base",
+      "targets": [
+        ["css=.sm\\3Aw-full:nth-child(5) > .text-base", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//div[3]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Baje la app')]", "xpath:innerText"]
+      ],
+      "value": "Download the app"
+    }]
+  }, {
+    "id": "891eb440-6b52-4db3-bb0a-0b635db511ce",
+    "name": "MUDAR IDIOMA ESPANHOL",
+    "commands": [{
+      "id": "a7a5edd6-fa83-45df-a8fa-065c21568f72",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa3c56c0-0dc3-457a-baa9-d430e5b0b5bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de9761ac-f1d3-4677-95bf-144ad49a9a57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sm\\3Amb-8",
+      "targets": [
+        ["css=.sm\\3Amb-8", "css:finder"],
+        ["xpath=(//button[@type='button'])[36]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section[7]/section/div[2]/section[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//section[3]/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Español')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d03d253c-9458-4b64-bd0a-2f5746800514",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sm\\3Aw-full:nth-child(5) > .text-base",
+      "targets": [
+        ["css=.sm\\3Aw-full:nth-child(5) > .text-base", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//div[3]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Baje la app')]", "xpath:innerText"]
+      ],
+      "value": "Baje la app"
+    }]
+  }, {
+    "id": "dbafe6e5-b83a-416c-bf93-ddd3759b3337",
+    "name": "MUDAR IDIOMA PORTUGUÊS",
+    "commands": [{
+      "id": "c299e0c5-1a05-4974-aaf1-757a6df89459",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ef75432-33d9-4c44-b574-b256fb13f70b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23c2c10e-a128-4d29-b481-bc15b70d4e98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.float-right:nth-child(1)",
+      "targets": [
+        ["css=.float-right:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[34]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/section[7]/section/div[2]/section[3]/button", "xpath:idRelative"],
+        ["xpath=//section[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Portugués - BR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d708f71-dd53-42b5-b732-942164f4028f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sm\\3Aw-full:nth-child(5) > .text-base",
+      "targets": [
+        ["css=.sm\\3Aw-full:nth-child(5) > .text-base", "css:finder"],
+        ["xpath=//div[@id='__next']/section[7]/section/div/div[2]/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//div[3]/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Baixe o app')]", "xpath:innerText"]
+      ],
+      "value": "Baixe o app"
+    }]
+  }],
+  "suites": [{
+    "id": "255bb29e-1d06-4b38-9459-f10146b8d64d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f8b48ca3-913a-48ce-95d8-de7cf8a4893f"]
+  }],
+  "urls": ["https://qa.medcloud.link/"],
+  "plugins": []
+}

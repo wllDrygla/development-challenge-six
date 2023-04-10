@@ -1,0 +1,158 @@
+{
+  "id": "08c572de-b689-4628-ab63-26a2570decca",
+  "version": "2.0",
+  "name": "TESTES AUTOMATIZADOS MEDCLOUD",
+  "url": "https://qa.medcloud.link",
+  "tests": [{
+    "id": "3fd84587-d3c6-40f3-8102-d0643bf9e9fb",
+    "name": "FormulárioContatoVazio",
+    "commands": [{
+      "id": "7c1f93dd-f00f-436a-a8f6-1f875702a8e5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3310479-4e96-49cd-a013-34892d0ac5cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea27f802-a4f6-46b0-934d-bfa4068a5112",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xxl\\3Ah-12",
+      "targets": [
+        ["css=.xxl\\3Ah-12", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ead03c73-19c8-494f-867b-6bb32625bbd3",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Campo obrigatório faltante.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d13ea91-3c39-4409-aa9b-1ed13fc3b83f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bg-red-100",
+      "targets": [
+        ["css=.bg-red-100", "css:finder"],
+        ["xpath=//section[@id='Contact']/section/form/div[4]", "xpath:idRelative"],
+        ["xpath=//form/div[4]", "xpath:position"]
+      ],
+      "value": "Um erro inesperado ocorreu.\\nErro ao enviar mensagem."
+    }]
+  }, {
+    "id": "5ea2fd9c-e44d-4b01-91c4-955279255778",
+    "name": "FormulárioContatoCorreto",
+    "commands": [{
+      "id": "470708cf-6bb7-45a4-a95c-a445db584b02",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9682bb7a-8fa9-4b05-aa1a-843d70d9a040",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex > .flex-col #name",
+      "targets": [
+        ["css=.flex > .flex-col #name", "css:finder"],
+        ["xpath=(//input[@id='name'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cae12af3-5075-435f-8438-60207b7981b2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.flex > .flex-col #name",
+      "targets": [
+        ["css=.flex > .flex-col #name", "css:finder"],
+        ["xpath=(//input[@id='name'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Willian Drygla Cardoso"
+    }, {
+      "id": "556c4bde-03a5-484c-a381-f843b08e2899",
+      "comment": "",
+      "command": "type",
+      "target": "css=.flex > .flex-col #email",
+      "targets": [
+        ["css=.flex > .flex-col #email", "css:finder"],
+        ["xpath=(//input[@id='email'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "willian09.cardoso@gmail.com"
+    }, {
+      "id": "55738236-7b2c-480e-88c4-bf6cb2fcd80e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.flex > .flex-col #phone",
+      "targets": [
+        ["css=.flex > .flex-col #phone", "css:finder"],
+        ["xpath=(//input[@id='phone'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section/form/div/div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "+5542991668799"
+    }, {
+      "id": "bbf2c402-d136-4d76-9901-56b4ba99c002",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Teste Automatizado para desafio vaga de QA"
+    }, {
+      "id": "78cc0e6a-6192-4146-9b44-5eae9a6c5a92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xxl\\3Ah-12",
+      "targets": [
+        ["css=.xxl\\3Ah-12", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='Contact']/section/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ede8bd40-e53b-4a62-8295-194801247608",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ea0a933e-2b90-4215-b2c8-6dad3d6849f8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://qa.medcloud.link/"],
+  "plugins": []
+}

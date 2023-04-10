@@ -1,0 +1,272 @@
+{
+  "id": "052c4148-43a7-4659-8c0a-4213b622dedd",
+  "version": "2.0",
+  "name": "TESTES AUTOMATIZADOS MEDCLOUD",
+  "url": "https://qa.medcloud.link",
+  "tests": [{
+    "id": "49eefe86-7f25-4e85-9bc5-5b01efeb4673",
+    "name": "BOTÃO RIS",
+    "commands": [{
+      "id": "3fbfe239-8837-486a-af6c-85f4907079fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab3f612f-26c6-4901-807b-68adae9b594a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71a2d9af-9e95-4943-b82f-e3dfa2c492ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerRis",
+      "targets": [
+        ["id=headerRis", "id"],
+        ["css=#headerRis", "css:finder"],
+        ["xpath=//button[@id='headerRis']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b79dfe9-3112-4384-b6d4-28c16318fb95",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#RIS > .sm\\3Atext-mob10xl",
+      "targets": [
+        ["css=#RIS > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='RIS']/h1", "xpath:idRelative"],
+        ["xpath=//section[2]/section/h1", "xpath:position"]
+      ],
+      "value": "Um RIS pensado para\\na sua gestão"
+    }]
+  }, {
+    "id": "0a4f78d2-e1f4-43cf-8331-f8000dcf26c1",
+    "name": "BOTÃO PACS",
+    "commands": [{
+      "id": "30dc60cb-c2c6-45c5-9f7a-e4dc936cc351",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49a0940d-c398-4c1f-85e7-38ca8bf5807f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a729ef6-2762-4952-b489-1500cdee701a",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPacs",
+      "targets": [
+        ["id=headerPacs", "id"],
+        ["css=#headerPacs", "css:finder"],
+        ["xpath=//button[@id='headerPacs']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c8e249d-fed3-4447-879b-2ccdc5f63567",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mt-12 > .sm\\3Atext-mob10xl",
+      "targets": [
+        ["css=.mt-12 > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='PACS']/section/h1", "xpath:idRelative"],
+        ["xpath=//section[3]/section/h1", "xpath:position"]
+      ],
+      "value": "Seu editor de laudos.\\nReinventado."
+    }]
+  }, {
+    "id": "88d43050-6266-424c-9099-469af74b7223",
+    "name": "BOTÃO PORTAL",
+    "commands": [{
+      "id": "269d5cac-80c8-4091-b476-fbaa8bda6f75",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9a86ae4-ed16-4199-9216-e16a816c6aee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "282a361e-2f0c-45fb-a846-e5bc45132c25",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPortal",
+      "targets": [
+        ["id=headerPortal", "id"],
+        ["css=#headerPortal", "css:finder"],
+        ["xpath=//button[@id='headerPortal']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[4]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "678c1fde-66e1-48a4-aa0d-60bb8027a54e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#Portal > .justify-center > .sm\\3Atext-mob10xl",
+      "targets": [
+        ["css=#Portal > .justify-center > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='Portal']/section/h1", "xpath:idRelative"],
+        ["xpath=//section[4]/section/h1", "xpath:position"]
+      ],
+      "value": "A sacola de exames que\\ncabe no seu bolso"
+    }]
+  }, {
+    "id": "90ed8a59-a509-4427-93e5-b8e83dbf3062",
+    "name": "BOTÃO PLANOS",
+    "commands": [{
+      "id": "ae5dd98a-6352-4965-a206-32547c3bfb55",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b524442-25cd-4855-9bba-715c927648ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41205bb8-b2fd-4876-bef0-2e510c644c42",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerPlans",
+      "targets": [
+        ["id=headerPlans", "id"],
+        ["css=#headerPlans", "css:finder"],
+        ["xpath=//button[@id='headerPlans']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f514449-e608-4148-ac63-4b407254c53f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sm\\3Amb-0 > .sm\\3Atext-mob10xl",
+      "targets": [
+        ["css=.sm\\3Amb-0 > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='Plans']/section/h1", "xpath:idRelative"],
+        ["xpath=//section[5]/section/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Comece hoje mesmo')]", "xpath:innerText"]
+      ],
+      "value": "Comece hoje mesmo"
+    }]
+  }, {
+    "id": "4ec21061-5e9f-4407-b404-dcd074d99fe1",
+    "name": "BOTÃO CONTATO",
+    "commands": [{
+      "id": "11aa3707-e061-4019-8c5c-154b30dcd703",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "986b3710-baeb-4866-8dfa-8f9ee6c066c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1b7ccf6-496e-4a97-829e-e98394e5cd25",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerContact",
+      "targets": [
+        ["id=headerContact", "id"],
+        ["css=#headerContact", "css:finder"],
+        ["xpath=//button[@id='headerContact']", "xpath:attributes"],
+        ["xpath=//div[@id='sectionHeaderWeb']/button[6]", "xpath:idRelative"],
+        ["xpath=//div[4]/button[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf043e9-282c-479a-87be-d633d41930ea",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.xxl\\3Amy-16 > .sm\\3Atext-mob10xl",
+      "targets": [
+        ["css=.xxl\\3Amy-16 > .sm\\3Atext-mob10xl", "css:finder"],
+        ["xpath=//section[@id='Contact']/section/h1", "xpath:idRelative"],
+        ["xpath=//section[6]/section/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Entre em contato')]", "xpath:innerText"]
+      ],
+      "value": "Entre em contato"
+    }]
+  }, {
+    "id": "722dc5f1-0527-4add-8f05-40580a404a84",
+    "name": "BOTÃO TESTAR GRATIS",
+    "commands": [{
+      "id": "6b9004d5-e8ab-4a07-87a6-c19f280be35b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83435264-bfcb-409c-b1ca-30182a50724b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a704472-2ee3-4594-bdad-ec44cf2f0ec2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-full > .text-white",
+      "targets": [
+        ["css=.h-full > .text-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/nav/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Testar grátis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f174fdc9-9220-41be-808e-7cee302f191d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.modal-content > p:nth-child(2)",
+      "targets": [
+        ["css=.modal-content > p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Solicitar uma conta para clínica ou hospital')]", "xpath:innerText"]
+      ],
+      "value": "Solicitar uma conta para clínica ou hospital"
+    }]
+  }],
+  "suites": [{
+    "id": "b6a5a716-a4bd-415e-b9c9-753a56070156",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["49eefe86-7f25-4e85-9bc5-5b01efeb4673"]
+  }],
+  "urls": ["https://qa.medcloud.link/"],
+  "plugins": []
+}

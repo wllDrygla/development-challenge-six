@@ -1,0 +1,149 @@
+{
+  "id": "0aa758a1-dd9d-4bfe-9813-6e1beba46664",
+  "version": "2.0",
+  "name": "TESTES AUTOMATIZADOS MEDCLOUD",
+  "url": "https://qa.medcloud.link",
+  "tests": [{
+    "id": "69ed0184-c7ad-4e1a-959b-89eea82bf5e5",
+    "name": "Formulário preenchido corretamente ",
+    "commands": [{
+      "id": "dd3b04fe-b184-4cc0-a812-ba7e0f51fd86",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af6f0b7f-a43e-4429-8bb1-5ba6d6303209",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8924ada5-f03e-4034-b274-8ca1372ff379",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-full > .text-white",
+      "targets": [
+        ["css=.h-full > .text-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/nav/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Testar grátis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0db9f09b-9c4e-4012-8079-bb52d2711e57",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=nome-input", "name"],
+        ["css=.mt-4 #name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7759badc-5caa-4548-88c1-692adba021ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=nome-input", "name"],
+        ["css=.mt-4 #name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "WiLL Willian"
+    }, {
+      "id": "0aa95152-309c-43f9-8897-ade3838af879",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=e-mail-input", "name"],
+        ["css=.mt-4 #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "willian09.cardoso@gmail.com"
+    }, {
+      "id": "89f9fe52-79d5-42d4-8028-a3033cbdc0ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=telefone-input", "name"],
+        ["css=.mt-4 #phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "42991668799"
+    }, {
+      "id": "dc88d6a8-36a6-4b42-99ae-f6b08412b885",
+      "comment": "",
+      "command": "click",
+      "target": "id=pos",
+      "targets": [
+        ["id=pos", "id"],
+        ["css=#pos", "css:finder"],
+        ["xpath=//select[@id='pos']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div/div[4]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47ad524b-91ee-4176-969b-35a5d487da80",
+      "comment": "",
+      "command": "select",
+      "target": "id=pos",
+      "targets": [],
+      "value": "label=Gestor de T.I"
+    }, {
+      "id": "ec0db3e6-08a5-4401-97eb-66a7f178a99d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-8 > .xxl\\3Atext-base",
+      "targets": [
+        ["css=.mt-8 > .xxl\\3Atext-base", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Solicitar uma conta grátis para clínica ou hospital')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36aa1ac7-3f46-419d-8bd6-7f0bf4b46d9b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sm\\3Ainline",
+      "targets": [
+        ["css=.sm\\3Ainline", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/div[2]/div/form/div[3]/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Trial solicitado com sucesso!')]", "xpath:innerText"]
+      ],
+      "value": "Trial solicitado com sucesso!"
+    }]
+  }],
+  "suites": [{
+    "id": "93c7fe12-b772-46a6-ae62-031a7cce6341",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["69ed0184-c7ad-4e1a-959b-89eea82bf5e5"]
+  }],
+  "urls": ["https://qa.medcloud.link/"],
+  "plugins": []
+}
